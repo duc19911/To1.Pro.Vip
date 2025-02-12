@@ -1,78 +1,148 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trường Thống Nhất</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            color: #333;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Thống Nhất Hấp Dẫn và Điện Từ</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+    }
+    header, footer {
+      background-color: #f4f4f4;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 15px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #007BFF;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    h2, h3 {
+      color: #333;
+    }
+    ul, ol {
+      margin-left: 20px;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Lý thuyết Trường Thống Nhất</h1>
-        <p>Đây là lý thuyết nhằm thống nhất lý thuyết Trường Hấp Dẫn và lý thuyết Trường Điện Từ.</p>
-        
-        <h2>Nguyên nhân</h2>
-        <ul>
-            <li>Trong lịch sử, nhiều lý thuyết riêng lẻ đã được thống nhất thành lý thuyết bao quát hơn:</li>
-            <ul>
-                <li>Newton thống nhất cơ học Trái Đất và cơ học thiên thể bằng định luật vạn vật hấp dẫn.</li>
-                <li>Maxwell thống nhất điện học và từ học thành thuyết điện từ.</li>
-                <li>Einstein thống nhất không gian và thời gian trong thuyết tương đối hẹp, sau đó thống nhất hấp dẫn với hình học trong thuyết tương đối rộng.</li>
-            </ul>
-            <li>Thực nghiệm cho thấy hai trường lý thuyết này có sự tương quan:</li>
-            <ul>
-                <li>Cả hai đều có tầm ảnh hưởng trên quy mô lớn.</li>
-                <li>Cả hai đều có nguồn gốc từ các trường liên tục.</li>
-                <li>Cả hai đều sử dụng phương trình vi phân đạo hàm bậc hai mô tả một trường liên tục.</li>
-                <li>Là bước đầu cho công cuộc thống nhất các lý thuyết về các lực trong vũ trụ.</li>
-            </ul>
-        </ul>
-        
-        <h2>Những khó khăn trong việc thống nhất</h2>
-        <ul>
-            <li><strong>Sự khác biệt về bản chất:</strong>
-                <ul>
-                    <li>Hấp dẫn: được mô tả bởi Thuyết tương đối rộng của Einstein, trong đó không thời gian bị uốn cong bởi khối lượng và năng lượng của vật thể trong không gian ba chiều. Được cụ thể hóa qua hình học vi phân và Tensor Metric.</li>
-                    <li>Điện từ: được mô tả bởi Phương trình Maxwell, hoạt động trong không thời gian của Thuyết tương đối hẹp qua việc sử dụng Lý thuyết trường Gauge với đối xứng nhóm.</li>
-                </ul>
-            </li>
-            <li><strong>Sự khác biệt về độ lớn của hai lực:</strong>
-                <ul>
-                    <li>Lực hấp dẫn rất yếu so với lực điện từ. Vì vậy, khi thống nhất, mọi hằng số vật lý đều phải điều chỉnh sao cho phù hợp trong mọi thang đo.</li>
-                </ul>
-            </li>
-            <li><strong>Bản chất lượng tử và tính cổ điển:</strong>
-                <ul>
-                    <li>Điện từ đã được lượng tử hóa thành Điện động lực học lượng tử.</li>
-                    <li>Hấp dẫn vẫn chưa có lý thuyết lượng tử hoàn chỉnh vì khi cố gắng lượng tử hóa bằng các phương pháp trường lượng tử, ta gặp các vô hạn không thể loại bỏ bằng tái chuẩn hóa.</li>
-                </ul>
-            </li>
-            <li><strong>Thống nhất nhóm đối xứng:</strong>
-                <ul>
-                    <li>Các lực trong mô hình chuẩn như Điện từ đều có thể được mô tả bằng lý thuyết trường Gauge với nhóm đối xứng như U(1), SU(2)...</li>
-                    <li>Hấp dẫn chưa thể đưa vào khung Gauge chung với các lực còn lại.</li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+  <!-- Navigation links placed at the top of the page -->
+  <header>
+    <h1>Thống Nhất Hấp Dẫn và Điện Từ</h1>
+    <nav>
+      <ul>
+        <li><a href="#luan1">1. Vì sao cần thống nhất hai trường lực này?</a></li>
+        <li><a href="#luan2">2. Vì sao việc thống nhất gặp khó khăn?</a></li>
+        <li><a href="#luan3">3. Định hướng thống nhất lý thuyết</a></li>
+        <li><a href="#luan4">4. Tiềm năng ứng dụng trong tương lai</a></li>
+        <li><a href="#luan5">5. Kết luận</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Mở đầu</h2>
+      <p>Trong suốt lịch sử vật lý, các nhà khoa học luôn tìm kiếm một lý thuyết tổng quát để mô tả toàn bộ các lực trong tự nhiên. Một trong những nỗ lực đầu tiên trong hướng đi này là thống nhất trường hấp dẫn và trường điện từ. Nhưng tại sao lại tập trung vào hai trường này mà không phải các trường khác? Vì sao việc thống nhất chúng lại khó khăn? Bài luận này sẽ phân tích lý do khoa học và toán học khiến việc thống nhất hấp dẫn và điện từ trở thành một mục tiêu quan trọng, đồng thời nêu lên các hướng tiếp cận trong việc thống nhất hai trường này.</p>
+    </section>
+    
+    <section id="luan1">
+      <h2>1. Vì sao cần thống nhất hai trường lực này?</h2>
+      
+      <h3>1.1. Lịch sử phát triển: Hai trường lực đầu tiên được hiểu rõ</h3>
+      <p>Trước khi lực mạnh và lực yếu được khám phá, chỉ có hai lực cơ bản được hiểu rõ:</p>
+      <ul>
+        <li><strong>Lực hấp dẫn:</strong> Được Newton mô tả vào năm 1687 trong định luật vạn vật hấp dẫn, sau đó Einstein phát triển thành thuyết tương đối rộng (1915).</li>
+        <li><strong>Lực điện từ:</strong> Được Maxwell thống nhất vào năm 1865 từ các hiện tượng điện học và từ học, tạo thành hệ phương trình Maxwell.</li>
+      </ul>
+      <p>Cả hai trường này đều chi phối vũ trụ ở quy mô lớn, từ các hành tinh, sao, thiên hà (hấp dẫn) đến ánh sáng, sóng vô tuyến, và các hiện tượng điện từ trong đời sống. Vì vậy, Einstein tin rằng nếu có thể mô tả hấp dẫn và điện từ trong một mô hình chung, thì có thể tìm ra một quy luật cơ bản của tự nhiên.</p>
+      
+      <h3>1.2. Cả hai đều có tầm ảnh hưởng vô hạn</h3>
+      <p>Hấp dẫn ảnh hưởng đến mọi vật thể có khối lượng, không thể bị che chắn, và tác động trên phạm vi toàn vũ trụ.</p>
+      <p>Điện từ có thể truyền đi vô hạn nhưng có thể bị triệt tiêu do sự đối kháng giữa điện tích dương và âm.</p>
+      <p>Ngược lại, lực mạnh và lực yếu chỉ hoạt động trong phạm vi cực nhỏ, nên chúng không có ảnh hưởng lớn ở quy mô vũ trụ. Vì vậy, việc thống nhất hấp dẫn và điện từ có thể giúp chúng ta hiểu sâu hơn về cách vũ trụ vận hành từ quy mô nhỏ đến lớn.</p>
+      
+      <h3>1.3. Tương đồng về phương trình toán học</h3>
+      <p>Phương trình Maxwell mô tả điện từ trường.</p>
+      <p>Phương trình Einstein mô tả cách không-thời gian bị uốn cong bởi khối lượng và năng lượng.</p>
+      <p>Các phương trình này có cấu trúc toán học tương tự nhau, điều này gợi ý rằng hấp dẫn và điện từ có thể chỉ là hai biểu hiện khác nhau của một trường duy nhất trong vũ trụ.</p>
+    </section>
+    
+    <section id="luan2">
+      <h2>2. Vì sao việc thống nhất gặp khó khăn?</h2>
+      
+      <h3>2.1. Sự khác biệt cơ bản giữa hấp dẫn và điện từ</h3>
+      <p>Mặc dù có nhiều điểm chung, nhưng hấp dẫn và điện từ cũng có sự khác biệt lớn:</p>
+      <ul>
+        <li>Hấp dẫn luôn hút, trong khi điện từ có thể hút hoặc đẩy.</li>
+        <li>Hấp dẫn rất yếu so với điện từ (một nam châm nhỏ có thể nhấc được một vật dù trọng lực của cả Trái Đất đang kéo vật đó xuống).</li>
+        <li>Hấp dẫn liên quan đến hình học không-thời gian, trong khi điện từ liên quan đến các hạt mang lực (photon).</li>
+      </ul>
+      
+      <h3>2.2. Sự khác biệt về bản chất lượng tử và cổ điển</h3>
+      <p>Trường điện từ được mô tả bởi cơ học lượng tử và thuyết trường lượng tử. Hạt photon là hạt truyền tương tác của lực điện từ, và lý thuyết điện từ phù hợp với nhóm đối xứng U(1) trong mô hình chuẩn.</p>
+      <p>Trường hấp dẫn lại mang tính cổ điển, được mô tả bởi thuyết tương đối rộng, trong đó lực hấp dẫn không được truyền bởi hạt mà xuất phát từ độ cong của không-thời gian.</p>
+      <p>Khi cố gắng lượng tử hóa hấp dẫn, ta gặp phải các vô hạn toán học, khiến lý thuyết mất đi tính khả dụng. Đây là một trong những rào cản lớn nhất của việc thống nhất.</p>
+    </section>
+    
+    <section id="luan3">
+      <h2>3. Định hướng thống nhất lý thuyết</h2>
+      
+      <h3>3.1. Lý thuyết Kaluza-Klein</h3>
+      <p>Lý thuyết này mở rộng không-thời gian từ 4 chiều lên 5 chiều. Khi biểu diễn trường hấp dẫn trong không-thời gian 5 chiều, ta thu được cả phương trình Einstein (hấp dẫn) và phương trình Maxwell (điện từ), gợi ý rằng điện từ có thể chỉ là một phần của hình học không-thời gian mở rộng.</p>
+      
+      <h3>3.2. Lý thuyết dây</h3>
+      <p>Lý thuyết dây đề xuất rằng các hạt cơ bản không phải là điểm mà là các dây dao động, và mỗi cách dao động khác nhau tạo ra các hạt khác nhau. Trong lý thuyết này, cả lực hấp dẫn và điện từ đều có thể được mô tả bởi các trạng thái dao động khác nhau của dây.</p>
+      
+      <h3>3.3. Lý thuyết hấp dẫn lượng tử vòng</h3>
+      <p>Thuyết này xem không-thời gian không phải là một thực thể liên tục mà có cấu trúc dạng lưới rời rạc ở cấp độ Planck. Một số phiên bản của lý thuyết này cho thấy có thể xuất hiện những hiệu ứng liên kết hấp dẫn và điện từ ở cấp độ vi mô.</p>
+      
+      <h3>3.4. Thống nhất theo nhóm đối xứng</h3>
+      <p>Lực điện từ được mô tả bởi nhóm đối xứng U(1), trong khi hấp dẫn được mô tả bởi đối xứng diffeomorphism của không-thời gian. Một số lý thuyết mở rộng đề xuất rằng cả hai có thể được thống nhất trong một nhóm đối xứng lớn hơn, chẳng hạn như nhóm SO(3,1) x U(1) hoặc thậm chí một nhóm đối xứng siêu hấp dẫn trong lý thuyết dây.</p>
+    </section>
+    
+    <section id="luan4">
+      <h2>4. Tiềm năng ứng dụng trong tương lai</h2>
+      <p>Nếu có một lý thuyết thống nhất mô tả hấp dẫn và điện từ, điều đó có thể dẫn đến những công nghệ mang tính cách mạng, chẳng hạn như:</p>
+      <ul>
+        <li>Kiểm soát trường hấp dẫn, mở ra khả năng du hành vũ trụ nhanh hơn ánh sáng.</li>
+        <li>Năng lượng từ trường hấp dẫn, có thể là một nguồn năng lượng sạch và bền vững.</li>
+      </ul>
+    </section>
+    
+    <section id="luan5">
+      <h2>5. Kết luận</h2>
+      <p>Việc thống nhất trường hấp dẫn và trường điện từ không chỉ là một bài toán lý thuyết mà còn mang ý nghĩa sâu sắc trong việc hiểu về vũ trụ. Mặc dù gặp nhiều khó khăn, nhưng những hướng tiếp cận như lý thuyết Kaluza-Klein, lý thuyết dây, hấp dẫn lượng tử vòng đang mở ra những con đường mới, giúp nhân loại tiến gần hơn đến một lý thuyết thống nhất về mọi thứ.</p>
+    </section>
+    
+    <section id="references">
+      <h2>Nguồn Tài liệu Tham khảo</h2>
+      <ul>
+        <li>Newton, Isaac. <em>Philosophiæ Naturalis Principia Mathematica</em> (1687).</li>
+        <li>Einstein, Albert. <em>The Foundation of the General Theory of Relativity</em> (1915).</li>
+        <li>Maxwell, James Clerk. <em>A Dynamical Theory of the Electromagnetic Field</em> (1865).</li>
+        <li>Các nghiên cứu về lý thuyết Kaluza-Klein, lý thuyết dây và hấp dẫn lượng tử vòng.</li>
+      </ul>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 Tất cả các quyền được bảo lưu.</p>
+  </footer>
 </body>
 </html>
